@@ -1,0 +1,161 @@
+[11-Jan-2021 18:12:39 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:14:32 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:14:42 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:14:43 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:14:43 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:14:43 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:14:44 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:15:44 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:15:47 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:18:34 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:18:40 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:18:54 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:18:59 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:19:15 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:21:50 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:21:52 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:21:53 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:22:35 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:23:21 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:23:56 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:24:29 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:24:32 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:24:49 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:25:41 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:26:05 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:26:35 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:26:35 Africa/Lagos] PHP Fatal error:  Uncaught ErrorException: include(C:\Users\eMiracle\PhpstormProjects\reciept/views/pages/errors/404): failed to open stream: No such file or directory in C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php:137
+Stack trace:
+#0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(137): core\Error::errorHandler(2, 'include(C:\\User...', 'C:\\Users\\eMirac...', 137, Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(137): include()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(101): core\Router->renderOnlyView('pages/errors/40...', Array)
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(24): core\Router->renderDirect('pages/errors/40...', Array)
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(70): core\Controller->viewDirect('pages.errors.40...')
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(64): core\Error->renderMe('pages.errors.40...')
+#6 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  th in C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php on line 137
+[11-Jan-2021 18:27:43 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:28:50 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:34:22 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[11-Jan-2021 18:41:24 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38

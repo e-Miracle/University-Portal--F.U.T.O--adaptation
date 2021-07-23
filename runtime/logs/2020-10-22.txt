@@ -1,0 +1,140 @@
+[22-Oct-2020 08:11:39 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:11:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method core\View::render() in C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php:73
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php on line 73
+[22-Oct-2020 08:12:20 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:12:20 UTC] PHP Fatal error:  Uncaught Error: Typed property core\Application::$controller must not be accessed before initialization in C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php:88
+Stack trace:
+#0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(78): core\Router->layoutContent()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('pages/errors/40...', Array)
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(73): core\Controller->view('pages.errors.40...')
+#3 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#4 {main}
+  thrown in C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php on line 88
+[22-Oct-2020 08:18:01 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:18:33 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:19:55 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:20:14 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:21:03 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:21:05 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:21:33 UTC] Uncaught exception: 'Exception' with message '404 PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('index', Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\MainController.php(19): core\Controller->view('index')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(48): app\controllers\MainController->home(Object(core\Request))
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#5 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 82
+[22-Oct-2020 08:21:37 UTC] Uncaught exception: 'Exception' with message '404 PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('index', Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\MainController.php(19): core\Controller->view('index')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(48): app\controllers\MainController->home(Object(core\Request))
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#5 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 82
+[22-Oct-2020 08:21:40 UTC] Uncaught exception: 'Exception' with message '404 PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('index', Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\MainController.php(19): core\Controller->view('index')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(48): app\controllers\MainController->home(Object(core\Request))
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#5 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 82
+[22-Oct-2020 08:23:26 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:23:39 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:24:16 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 08:26:00 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 09:24:32 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 09:25:12 UTC] Uncaught exception: 'ErrorException' with message 'call_user_func() expects parameter 1 to be a valid callback, function 'contact' not found or invalid function name'
+Stack trace: #0 [internal function]: core\Error::errorHandler(2, 'call_user_func(...', 'C:\\Users\\eMirac...', 60, Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(60): call_user_func('contact')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(21): core\Router->resolve()
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#4 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 60
+[22-Oct-2020 09:31:08 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 09:31:18 UTC] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(27): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[22-Oct-2020 16:49:07 Africa/Lagos] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function app\models\User::register(), 0 passed in C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\AuthController.php on line 44 and exactly 1 expected'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\AuthController.php(44): app\models\User->register()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\AuthController->register(Object(core\Request))
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(47): core\Application->run()
+#4 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\models\User.php' on line 23
+[22-Oct-2020 16:49:43 Africa/Lagos] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function app\models\User::register(), 0 passed in C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\AuthController.php on line 44 and exactly 1 expected'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\AuthController.php(44): app\models\User->register()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\AuthController->register(Object(core\Request))
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(47): core\Application->run()
+#4 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\models\User.php' on line 23
+[22-Oct-2020 16:50:04 Africa/Lagos] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function app\models\User::register(), 0 passed in C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\AuthController.php on line 44 and exactly 1 expected'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\AuthController.php(44): app\models\User->register()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\AuthController->register(Object(core\Request))
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(47): core\Application->run()
+#4 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\models\User.php' on line 23

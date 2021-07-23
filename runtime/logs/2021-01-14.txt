@@ -1,0 +1,140 @@
+[14-Jan-2021 10:50:12 Africa/Lagos] Uncaught exception: 'ErrorException' with message 'include_once(C:\Users\eMiracle\PhpstormProjects\reciept/views/layouts/pages/index.php): failed to open stream: No such file or directory'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(137): core\Error::errorHandler(2, 'include_once(C:...', 'C:\\Users\\eMirac...', 137, Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(137): include_once()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(86): core\Router->renderOnlyView('pages/index', Array)
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('pages/index', Array)
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\MainController.php(21): core\Controller->view('pages.index', Array)
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\MainController->home(Object(core\Request))
+#6 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#7 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#8 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 137
+[14-Jan-2021 10:50:12 Africa/Lagos] PHP Fatal error:  Uncaught ErrorException: include_once(C:\Users\eMiracle\PhpstormProjects\reciept/views/layouts/pages/errors/500.php): failed to open stream: No such file or directory in C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php:137
+Stack trace:
+#0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(137): core\Error::errorHandler(2, 'include_once(C:...', 'C:\\Users\\eMirac...', 137, Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(137): include_once()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(101): core\Router->renderOnlyView('pages/errors/50...', Array)
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(24): core\Router->renderDirect('pages/errors/50...', Array)
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(70): core\Controller->viewDirect('pages.errors.50...')
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(64): core\Error->renderMe('pages.errors.50...')
+#6 [internal function]: core\Error::exceptionHandler(Object(Error in C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php on line 137
+[14-Jan-2021 10:50:42 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[14-Jan-2021 10:53:01 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[14-Jan-2021 10:53:02 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[14-Jan-2021 11:14:49 Africa/Lagos] Uncaught exception: 'Error' with message 'Class 'View' not found'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(121): include_once()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(85): core\Router->layoutContent()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('pages/about', Array)
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\MainController.php(34): core\Controller->view('pages.about', Array)
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\MainController->aboutUs(Object(core\Request))
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#6 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(81): core\Application->run()
+#7 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\views\layouts\general.php' on line 13
+[14-Jan-2021 11:14:51 Africa/Lagos] Uncaught exception: 'Error' with message 'Class 'View' not found'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(121): include_once()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(85): core\Router->layoutContent()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('pages/about', Array)
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\MainController.php(34): core\Controller->view('pages.about', Array)
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\MainController->aboutUs(Object(core\Request))
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#6 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(81): core\Application->run()
+#7 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\views\layouts\general.php' on line 13
+[14-Jan-2021 11:54:38 Africa/Lagos] Uncaught exception: 'Exception' with message '404 PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('pages/policy', Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\MainController.php(46): core\Controller->view('pages.policy', Array)
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\MainController->policies(Object(core\Request))
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(80): core\Application->run()
+#5 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 89
+[14-Jan-2021 11:57:45 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(83): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[14-Jan-2021 12:04:55 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(83): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[14-Jan-2021 14:22:09 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\tour\Tours->viewTour(Object(core\Request))
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#3 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\tour\Tours.php' on line 38
+[14-Jan-2021 14:22:09 Africa/Lagos] PHP Fatal error:  Uncaught ErrorException: include_once(C:\Users\eMiracle\PhpstormProjects\reciept/views/pages/errors/pages.errors.404.php): failed to open stream: No such file or directory in C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php:70
+Stack trace:
+#0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(70): core\Error::errorHandler(2, 'include_once(C:...', 'C:\\Users\\eMirac...', 70, Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(70): include_once()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(64): core\Error->renderMe('pages.errors.40...')
+#3 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#4 {main}
+  thrown in C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php on line 70
+[14-Jan-2021 14:22:47 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\tour\Tours->viewTour(Object(core\Request))
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#3 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\tour\Tours.php' on line 38
+[14-Jan-2021 14:23:03 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\tour\Tours->viewTour(Object(core\Request))
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#3 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\tour\Tours.php' on line 38
+[14-Jan-2021 14:26:13 Africa/Lagos] Uncaught exception: 'Exception' with message 'Invalid gallery query'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\Gallery->viewGallery(Object(core\Request))
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#3 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\Gallery.php' on line 42
+[14-Jan-2021 14:26:38 Africa/Lagos] Uncaught exception: 'Exception' with message 'Invalid gallery query'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\Gallery->viewGallery(Object(core\Request))
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#3 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\Gallery.php' on line 42
+[14-Jan-2021 16:02:10 Africa/Lagos] Uncaught exception: 'Exception' with message 'Invalid request method'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\pay\Pay->tourPay(Object(core\Request))
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#3 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\pay\Pay.php' on line 42
+[14-Jan-2021 16:02:25 Africa/Lagos] Uncaught exception: 'Exception' with message 'Invalid request method'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\pay\Pay->tourPay(Object(core\Request))
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#3 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\pay\Pay.php' on line 42
+[14-Jan-2021 16:49:11 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[14-Jan-2021 16:50:13 Africa/Lagos] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$''
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(86): core\Router->renderOnlyView('test', Array)
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(42): core\Router->render('test')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#4 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\views\test.php' on line 9
+[14-Jan-2021 18:22:43 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38

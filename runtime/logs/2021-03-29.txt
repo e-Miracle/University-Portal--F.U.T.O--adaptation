@@ -1,0 +1,169 @@
+[29-Mar-2021 12:14:40 Africa/Lagos] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(27): core\DB->query('SELECT * FROM t...', Array, false)
+#1 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(19): app\controllers\MainController->getTopTours()
+#2 C:\Users\eMiracle\Desktop\project\core\Router.php(52): app\controllers\MainController->home(Object(core\Request))
+#3 C:\Users\eMiracle\Desktop\project\core\Application.php(22): core\Router->resolve()
+#4 C:\Users\eMiracle\Desktop\project\public\index.php(85): core\Application->run()
+#5 {main}
+Thrown in 'C:\Users\eMiracle\Desktop\project\core\DB.php' on line 45
+[29-Mar-2021 12:14:40 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\eMiracle\Desktop\project\core\DB.php:45
+Stack trace:
+#0 C:\Users\eMiracle\Desktop\project\app\helpers\Company.php(17): core\DB->query('SELECT * FROM c...')
+#1 C:\Users\eMiracle\Desktop\project\views\parts\header.php(17): app\helpers\Company::Decision()
+#2 C:\Users\eMiracle\Desktop\project\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\Desktop\project\views\pages\errors\500.php(25): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\Desktop\project\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\Desktop\project\core\Error.php(62): core\Error->renderMe(500)
+#6 [internal function]: core\Error::exceptionHandler(Object(Error))
+#7 {main}
+  thrown in C:\Users\eMiracle\Desktop\project\core\DB.php on line 45
+[29-Mar-2021 12:15:29 Africa/Lagos] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(27): core\DB->query('SELECT * FROM t...', Array, false)
+#1 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(19): app\controllers\MainController->getTopTours()
+#2 C:\Users\eMiracle\Desktop\project\core\Router.php(52): app\controllers\MainController->home(Object(core\Request))
+#3 C:\Users\eMiracle\Desktop\project\core\Application.php(22): core\Router->resolve()
+#4 C:\Users\eMiracle\Desktop\project\public\index.php(85): core\Application->run()
+#5 {main}
+Thrown in 'C:\Users\eMiracle\Desktop\project\core\DB.php' on line 45
+[29-Mar-2021 12:15:29 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\eMiracle\Desktop\project\core\DB.php:45
+Stack trace:
+#0 C:\Users\eMiracle\Desktop\project\app\helpers\Company.php(17): core\DB->query('SELECT * FROM c...')
+#1 C:\Users\eMiracle\Desktop\project\views\parts\header.php(17): app\helpers\Company::Decision()
+#2 C:\Users\eMiracle\Desktop\project\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\Desktop\project\views\pages\errors\500.php(25): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\Desktop\project\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\Desktop\project\core\Error.php(62): core\Error->renderMe(500)
+#6 [internal function]: core\Error::exceptionHandler(Object(Error))
+#7 {main}
+  thrown in C:\Users\eMiracle\Desktop\project\core\DB.php on line 45
+[29-Mar-2021 12:15:32 Africa/Lagos] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(27): core\DB->query('SELECT * FROM t...', Array, false)
+#1 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(19): app\controllers\MainController->getTopTours()
+#2 C:\Users\eMiracle\Desktop\project\core\Router.php(52): app\controllers\MainController->home(Object(core\Request))
+#3 C:\Users\eMiracle\Desktop\project\core\Application.php(22): core\Router->resolve()
+#4 C:\Users\eMiracle\Desktop\project\public\index.php(85): core\Application->run()
+#5 {main}
+Thrown in 'C:\Users\eMiracle\Desktop\project\core\DB.php' on line 45
+[29-Mar-2021 12:15:32 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\eMiracle\Desktop\project\core\DB.php:45
+Stack trace:
+#0 C:\Users\eMiracle\Desktop\project\app\helpers\Company.php(17): core\DB->query('SELECT * FROM c...')
+#1 C:\Users\eMiracle\Desktop\project\views\parts\header.php(17): app\helpers\Company::Decision()
+#2 C:\Users\eMiracle\Desktop\project\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\Desktop\project\views\pages\errors\500.php(25): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\Desktop\project\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\Desktop\project\core\Error.php(62): core\Error->renderMe(500)
+#6 [internal function]: core\Error::exceptionHandler(Object(Error))
+#7 {main}
+  thrown in C:\Users\eMiracle\Desktop\project\core\DB.php on line 45
+[29-Mar-2021 12:15:35 Africa/Lagos] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(27): core\DB->query('SELECT * FROM t...', Array, false)
+#1 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(19): app\controllers\MainController->getTopTours()
+#2 C:\Users\eMiracle\Desktop\project\core\Router.php(52): app\controllers\MainController->home(Object(core\Request))
+#3 C:\Users\eMiracle\Desktop\project\core\Application.php(22): core\Router->resolve()
+#4 C:\Users\eMiracle\Desktop\project\public\index.php(85): core\Application->run()
+#5 {main}
+Thrown in 'C:\Users\eMiracle\Desktop\project\core\DB.php' on line 45
+[29-Mar-2021 12:15:35 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\eMiracle\Desktop\project\core\DB.php:45
+Stack trace:
+#0 C:\Users\eMiracle\Desktop\project\app\helpers\Company.php(17): core\DB->query('SELECT * FROM c...')
+#1 C:\Users\eMiracle\Desktop\project\views\parts\header.php(17): app\helpers\Company::Decision()
+#2 C:\Users\eMiracle\Desktop\project\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\Desktop\project\views\pages\errors\500.php(25): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\Desktop\project\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\Desktop\project\core\Error.php(62): core\Error->renderMe(500)
+#6 [internal function]: core\Error::exceptionHandler(Object(Error))
+#7 {main}
+  thrown in C:\Users\eMiracle\Desktop\project\core\DB.php on line 45
+[29-Mar-2021 12:16:11 Africa/Lagos] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null'
+Stack trace: #0 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(27): core\DB->query('SELECT * FROM t...', Array, false)
+#1 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(19): app\controllers\MainController->getTopTours()
+#2 C:\Users\eMiracle\Desktop\project\core\Router.php(52): app\controllers\MainController->home(Object(core\Request))
+#3 C:\Users\eMiracle\Desktop\project\core\Application.php(22): core\Router->resolve()
+#4 C:\Users\eMiracle\Desktop\project\public\index.php(85): core\Application->run()
+#5 {main}
+Thrown in 'C:\Users\eMiracle\Desktop\project\core\DB.php' on line 45
+[29-Mar-2021 12:16:11 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\eMiracle\Desktop\project\core\DB.php:45
+Stack trace:
+#0 C:\Users\eMiracle\Desktop\project\app\helpers\Company.php(17): core\DB->query('SELECT * FROM c...')
+#1 C:\Users\eMiracle\Desktop\project\views\parts\header.php(17): app\helpers\Company::Decision()
+#2 C:\Users\eMiracle\Desktop\project\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\Desktop\project\views\pages\errors\500.php(25): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\Desktop\project\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\Desktop\project\core\Error.php(62): core\Error->renderMe(500)
+#6 [internal function]: core\Error::exceptionHandler(Object(Error))
+#7 {main}
+  thrown in C:\Users\eMiracle\Desktop\project\core\DB.php on line 45
+[29-Mar-2021 12:17:46 Africa/Lagos] Uncaught exception: 'ErrorException' with message 'Undefined offset: 0'
+Stack trace: #0 C:\Users\eMiracle\Desktop\project\core\DB.php(159): core\Error::errorHandler(8, 'Undefined offse...', 'C:\\Users\\eMirac...', 159, Array)
+#1 C:\Users\eMiracle\Desktop\project\app\helpers\Company.php(17): core\DB->fetchOne()
+#2 C:\Users\eMiracle\Desktop\project\views\parts\header.php(17): app\helpers\Company::Decision()
+#3 C:\Users\eMiracle\Desktop\project\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#4 C:\Users\eMiracle\Desktop\project\views\layouts\main.php(15): core\View::yield('parts/header')
+#5 C:\Users\eMiracle\Desktop\project\core\Router.php(121): include_once('C:\\Users\\eMirac...')
+#6 C:\Users\eMiracle\Desktop\project\core\Router.php(85): core\Router->layoutContent()
+#7 C:\Users\eMiracle\Desktop\project\core\Controller.php(20): core\Router->render('pages/index', Array)
+#8 C:\Users\eMiracle\Desktop\project\app\controllers\MainController.php(21): core\Controller->view('pages.index', Array)
+#9 C:\Users\eMiracle\Desktop\project\core\Router.php(52): app\controllers\MainController->home(Object(core\Request))
+#10 C:\Users\eMiracle\Desktop\project\core\Application.php(22): core\Router->resolve()
+#11 C:\Users\eMiracle\Desktop\project\public\index.php(85): core\Application->run()
+#12 {main}
+Thrown in 'C:\Users\eMiracle\Desktop\project\core\DB.php' on line 159
+[29-Mar-2021 12:17:46 Africa/Lagos] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 0 in C:\Users\eMiracle\Desktop\project\core\DB.php:159
+Stack trace:
+#0 C:\Users\eMiracle\Desktop\project\core\DB.php(159): core\Error::errorHandler(8, 'Undefined offse...', 'C:\\Users\\eMirac...', 159, Array)
+#1 C:\Users\eMiracle\Desktop\project\app\helpers\Company.php(17): core\DB->fetchOne()
+#2 C:\Users\eMiracle\Desktop\project\views\parts\footer.php(16): app\helpers\Company::Decision()
+#3 C:\Users\eMiracle\Desktop\project\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#4 C:\Users\eMiracle\Desktop\project\views\pages\errors\500.php(97): core\View::yield('parts/footer')
+#5 C:\Users\eMiracle\Desktop\project\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#6 C:\Users\eMiracle\Desktop\project\core\Error.php(62): core\Error->renderMe(500)
+#7 [internal function]: core\Error::exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown in C:\Users\eMiracle\Desktop\project\core\DB.php on line 159
+[29-Mar-2021 12:20:13 Africa/Lagos] Uncaught exception: 'TypeError' with message 'Typed property core\Application::$controller must be an instance of core\Controller or null, app\controllers\DashboardController used'
+Stack trace: #0 C:\Users\eMiracle\Desktop\project\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\Desktop\project\public\index.php(39): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\Desktop\project\core\Router.php' on line 48
+[29-Mar-2021 12:20:13 Africa/Lagos] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 0 in C:\Users\eMiracle\Desktop\project\core\DB.php:159
+Stack trace:
+#0 C:\Users\eMiracle\Desktop\project\core\DB.php(159): core\Error::errorHandler(8, 'Undefined offse...', 'C:\\Users\\eMirac...', 159, Array)
+#1 C:\Users\eMiracle\Desktop\project\app\helpers\Company.php(17): core\DB->fetchOne()
+#2 C:\Users\eMiracle\Desktop\project\views\parts\header.php(17): app\helpers\Company::Decision()
+#3 C:\Users\eMiracle\Desktop\project\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#4 C:\Users\eMiracle\Desktop\project\views\pages\errors\500.php(25): core\View::yield('parts/header')
+#5 C:\Users\eMiracle\Desktop\project\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#6 C:\Users\eMiracle\Desktop\project\core\Error.php(62): core\Error->renderMe(500)
+#7 [internal function]: core\Error::exceptionHandler(Object(TypeError))
+#8 {main}
+  thrown in C:\Users\eMiracle\Desktop\project\core\DB.php on line 159
+[29-Mar-2021 12:20:17 Africa/Lagos] Uncaught exception: 'TypeError' with message 'Typed property core\Application::$controller must be an instance of core\Controller or null, app\controllers\DashboardController used'
+Stack trace: #0 C:\Users\eMiracle\Desktop\project\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\Desktop\project\public\index.php(39): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\Desktop\project\core\Router.php' on line 48
+[29-Mar-2021 12:20:17 Africa/Lagos] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 0 in C:\Users\eMiracle\Desktop\project\core\DB.php:159
+Stack trace:
+#0 C:\Users\eMiracle\Desktop\project\core\DB.php(159): core\Error::errorHandler(8, 'Undefined offse...', 'C:\\Users\\eMirac...', 159, Array)
+#1 C:\Users\eMiracle\Desktop\project\app\helpers\Company.php(17): core\DB->fetchOne()
+#2 C:\Users\eMiracle\Desktop\project\views\parts\header.php(17): app\helpers\Company::Decision()
+#3 C:\Users\eMiracle\Desktop\project\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#4 C:\Users\eMiracle\Desktop\project\views\pages\errors\500.php(25): core\View::yield('parts/header')
+#5 C:\Users\eMiracle\Desktop\project\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#6 C:\Users\eMiracle\Desktop\project\core\Error.php(62): core\Error->renderMe(500)
+#7 [internal function]: core\Error::exceptionHandler(Object(TypeError))
+#8 {main}
+  thrown in C:\Users\eMiracle\Desktop\project\core\DB.php on line 159
+[29-Mar-2021 12:21:01 Africa/Lagos] Uncaught exception: 'TypeError' with message 'Typed property core\Application::$controller must be an instance of core\Controller or null, app\controllers\DashboardController used'
+Stack trace: #0 C:\Users\eMiracle\Desktop\project\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\Desktop\project\public\index.php(39): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\Desktop\project\core\Router.php' on line 48
+[29-Mar-2021 12:21:01 Africa/Lagos] PHP Fatal error:  Uncaught ErrorException: include_once(C:\Users\eMiracle\Desktop\project\views\pages\errors\500.php): failed to open stream: No such file or directory in C:\Users\eMiracle\Desktop\project\core\Error.php:68
+Stack trace:
+#0 C:\Users\eMiracle\Desktop\project\core\Error.php(68): core\Error::errorHandler(2, 'include_once(C:...', 'C:\\Users\\eMirac...', 68, Array)
+#1 C:\Users\eMiracle\Desktop\project\core\Error.php(68): include_once()
+#2 C:\Users\eMiracle\Desktop\project\core\Error.php(62): core\Error->renderMe(500)
+#3 [internal function]: core\Error::exceptionHandler(Object(TypeError))
+#4 {main}
+  thrown in C:\Users\eMiracle\Desktop\project\core\Error.php on line 68

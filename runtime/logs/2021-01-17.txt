@@ -1,0 +1,91 @@
+[17-Jan-2021 00:42:26 Africa/Lagos] Uncaught exception: 'Error' with message 'Class 'Auth' not found'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\header.php(39): core\View::yield('parts/nav')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\views\layouts\main.php(15): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(121): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(85): core\Router->layoutContent()
+#6 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('pages/index', Array)
+#7 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\MainController.php(21): core\Controller->view('pages.index', Array)
+#8 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\MainController->home(Object(core\Request))
+#9 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#10 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#11 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\nav.php' on line 26
+[17-Jan-2021 00:42:42 Africa/Lagos] Uncaught exception: 'Error' with message 'Class 'Auth' not found'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\header.php(39): core\View::yield('parts/nav')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\views\layouts\main.php(15): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(121): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(85): core\Router->layoutContent()
+#6 C:\Users\eMiracle\PhpstormProjects\reciept\core\Controller.php(20): core\Router->render('pages/index', Array)
+#7 C:\Users\eMiracle\PhpstormProjects\reciept\app\controllers\MainController.php(21): core\Controller->view('pages.index', Array)
+#8 C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php(52): app\controllers\MainController->home(Object(core\Request))
+#9 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#10 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#11 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\nav.php' on line 26
+[17-Jan-2021 00:43:30 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[17-Jan-2021 00:43:30 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\nav.php:26
+Stack trace:
+#0 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\header.php(39): core\View::yield('parts/nav')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\views\pages\errors\404.php(25): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(62): core\Error->renderMe(404)
+#6 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  thrown in C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\nav.php on line 26
+[17-Jan-2021 00:44:26 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[17-Jan-2021 00:44:26 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\nav.php:26
+Stack trace:
+#0 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\header.php(39): core\View::yield('parts/nav')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\views\pages\errors\404.php(25): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(62): core\Error->renderMe(404)
+#6 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  thrown in C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\nav.php on line 26
+[17-Jan-2021 00:45:12 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[17-Jan-2021 00:45:12 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\nav.php:26
+Stack trace:
+#0 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\header.php(39): core\View::yield('parts/nav')
+#2 C:\Users\eMiracle\PhpstormProjects\reciept\core\View.php(19): require_once('C:\\Users\\eMirac...')
+#3 C:\Users\eMiracle\PhpstormProjects\reciept\views\pages\errors\404.php(25): core\View::yield('parts/header')
+#4 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(68): include_once('C:\\Users\\eMirac...')
+#5 C:\Users\eMiracle\PhpstormProjects\reciept\core\Error.php(62): core\Error->renderMe(404)
+#6 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  thrown in C:\Users\eMiracle\PhpstormProjects\reciept\views\parts\nav.php on line 26
+[17-Jan-2021 00:45:51 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[17-Jan-2021 13:38:56 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38
+[17-Jan-2021 13:39:10 Africa/Lagos] Uncaught exception: 'Exception' with message 'PAGE NOT FOUND'
+Stack trace: #0 C:\Users\eMiracle\PhpstormProjects\reciept\core\Application.php(22): core\Router->resolve()
+#1 C:\Users\eMiracle\PhpstormProjects\reciept\public\index.php(85): core\Application->run()
+#2 {main}
+Thrown in 'C:\Users\eMiracle\PhpstormProjects\reciept\core\Router.php' on line 38

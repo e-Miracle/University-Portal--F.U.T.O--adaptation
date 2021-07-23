@@ -1,0 +1,20 @@
+{
+    "name": "emiracle/reciept",
+    "authors": [
+        {
+            "name": "eMiracle",
+            "email": "miraclechibuzo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "core\\": "core"
+        }
+    },
+    "require": {
+      "ext-openssl": "*",
+        "dompdf/dompdf": "^0.8.6",
+        "google/apiclient": "^2.8"
+    }
+}
