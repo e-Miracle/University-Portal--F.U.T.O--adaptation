@@ -12,7 +12,7 @@ $url = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
 );
 define("BASE_URL", dirname(__DIR__));
-define("WEB_URL", dirname('localhost:800'));
+define("WEB_URL", dirname('localhost:8080'));
 /**
  * define the website name to avoid repetition
  */
