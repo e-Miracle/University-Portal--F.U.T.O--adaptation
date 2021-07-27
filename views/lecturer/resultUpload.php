@@ -118,7 +118,7 @@
                             <input type="hidden" name="department" value="<?=$dept?>">
                             <input type="hidden" name="level" value="<?=$lev?>">
                             <input type="hidden" name="course" value="<?=$course?>">
-                            <input type="file" name="userfile">
+                            <input type="file" name="userfile" required="" class="form-control">
                         </div>
 
                         <input type="submit" value="upload" class="btn btn-success">

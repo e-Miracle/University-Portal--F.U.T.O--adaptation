@@ -74,8 +74,8 @@ use BasicSettings;
             $dept = $request->data()->department;
             $course = $request->data()->course;
 
-            $sl = "SELECT * FROM results WHERE user_id = ? AND level_id = ? AND sessoin_id = ? AND course_reg_id = ? AND status = ?";
-            $p = [Auth::user()->id, $lev, $ses, $course, 1];
+            $sl = "SELECT * FROM results WHERE `level_id` = ? AND `session_id` = ? AND `course_reg_id` = ? AND status = ?";
+            $p = [$lev, $ses, $course, 1];
             $results = DB::getInstance()->query($sl, $p)->fetch();
         }
         $level = $this->getAllLevel();
@@ -119,87 +119,95 @@ use BasicSettings;
                      */
                     foreach ($ob as $key => $value)
                     {
-                        $student = DB::getInstance()->select('users', ['reg_no', '=', $value["reg_no"]]);
+                        //$student = DB::getInstance()->select('users', ['reg_no', '=', $value["reg_no"], 'type', '=', 'student']);
+                        $student = DB::getInstance()->query("SELECT * FROM `users` WHERE `reg_no` = ? AND `type` = ?", [$value["reg_no"], 'student']);
+                        $student_count = $student->count();
+                        $students = $student->fetchOne();
 
-                        $data = [
-                            $request->data()->level,
-                            $request->data()->session,
-                            $request->data()->course,
-                        ];
-
-                        $s = "SELECT * FROM results WHERE level_id = ? AND session_id = ? AND course_reg_id = ?";
-                        $is_done = DB::getInstance()->query($s, $data);
-                        if ($student->count() && !$is_done->count())
+                        if ($student_count)
                         {
-                            $student = $student->fetchOne();
-                            if ($value["practical"] == 'NIL')
-                            {
-                                if ($value["test"] == 'NIL')
-                                {
-                                    if ((int) $value["exam"] <= 100)
-                                    {
-                                        $score = (int) $value["exam"];
-                                    }
-                                }else
-                                {
-                                    if (((int) $value["exam"] + (int) $value["test"]) <= 100)
-                                    {
-                                        $score = (int) $value["exam"] + (int) $value["test"];
-                                    }
-                                }
-                            }else
-                            {
-                                if ($value["test"] == 'NIL')
-                                {
-                                    if (((int) $value["exam"] + (int) $value["practical"]) <= 100)
-                                    {
-                                        $score = (int) $value["exam"] + (int) $value["practical"];
-                                    }
-                                }else
-                                {
-                                    if (((int) $value["exam"] + (int) $value["test"] + (int) $value["practical"]) <= 100)
-                                    {
-                                        $score = (int) $value["exam"] + (int) $value["test"] + (int) $value["practical"];
-                                    }
-                                }
-                            }
-
-                            if ($score >= 70)
-                            {
-                                $grade = 'A';
-                            }
-
-                            if ($score < 70 AND $score >=60)
-                            {
-                                $grade ='B';
-                            }
-
-                            if ($score < 60 AND $score >= 50)
-                            {
-                                $grade = 'C';
-                            }
-
-                            if ($score < 50 AND $score >= 40)
-                            {
-                                $grade = 'D';
-                            }
-
-                            if($score < 40){
-                                $grade = 'F';
-                            }
+                            $student = $students;
 
                             $data = [
-                                'user_id'=>$student->id,
-                                'level_id'=>$request->data()->level,
-                                'session_id'=>$request->data()->session,
-                                'course_reg_id'=>$request->data()->course,
-                                'practical'=>($value["practical"] == 'NIL')? null : $value["practical"],
-                                'test'=>($value["test"] == 'NIL')? null : $value["test"],
-                                'exam'=>$value["exam"],
-                                'score'=>$score??0,
-                                'grade'=>$grade,
+                                $student->id,
+                                $request->data()->level,
+                                $request->data()->session,
+                                $request->data()->course,
                             ];
-                            DB::getInstance()->insert('results', $data);
+                            $s = "SELECT * FROM results WHERE user_id = ? AND level_id = ? AND session_id = ? AND course_reg_id = ?";
+                            $is_done = DB::getInstance()->query($s, $data);
+
+                            if (!$is_done->count())
+                            {
+                                if ($value["practical"] == 'NIL')
+                                {
+                                    if ($value["test"] == 'NIL')
+                                    {
+                                        if ((int) $value["exam"] <= 100)
+                                        {
+                                            $score = (int) $value["exam"];
+                                        }
+                                    }else
+                                    {
+                                        if (((int) $value["exam"] + (int) $value["test"]) <= 100)
+                                        {
+                                            $score = (int) $value["exam"] + (int) $value["test"];
+                                        }
+                                    }
+                                }else
+                                {
+                                    if ($value["test"] == 'NIL')
+                                    {
+                                        if (((int) $value["exam"] + (int) $value["practical"]) <= 100)
+                                        {
+                                            $score = (int) $value["exam"] + (int) $value["practical"];
+                                        }
+                                    }else
+                                    {
+                                        if (((int) $value["exam"] + (int) $value["test"] + (int) $value["practical"]) <= 100)
+                                        {
+                                            $score = (int) $value["exam"] + (int) $value["test"] + (int) $value["practical"];
+                                        }
+                                    }
+                                }
+
+                                if ($score >= 70)
+                                {
+                                    $grade = 'A';
+                                }
+
+                                if ($score < 70 AND $score >=60)
+                                {
+                                    $grade ='B';
+                                }
+
+                                if ($score < 60 AND $score >= 50)
+                                {
+                                    $grade = 'C';
+                                }
+
+                                if ($score < 50 AND $score >= 40)
+                                {
+                                    $grade = 'D';
+                                }
+
+                                if($score < 40){
+                                    $grade = 'F';
+                                }
+
+                                $data = [
+                                    'user_id'=>$student->id,
+                                    'level_id'=>$request->data()->level,
+                                    'session_id'=>$request->data()->session,
+                                    'course_reg_id'=>$request->data()->course,
+                                    'practical'=>($value["practical"] == 'NIL')? null : $value["practical"],
+                                    'test'=>($value["test"] == 'NIL')? null : $value["test"],
+                                    'exam'=>$value["exam"],
+                                    'score'=>$score??0,
+                                    'grade'=>$grade,
+                                ];
+                                DB::getInstance()->insert('results', $data);
+                            }
                         }
                     }
                     Flash::set(['success', 'upload was successful']);

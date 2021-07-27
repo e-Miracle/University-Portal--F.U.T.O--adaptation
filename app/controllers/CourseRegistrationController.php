@@ -24,7 +24,7 @@ class CourseRegistrationController extends \core\Controller
         }
     }
 
-    public function viewCourses(/*Request $request,*/ $user = null)
+    public function viewCourses(Request $request, $user = null)
     {
         $user = (!is_null($user))? Auth::user($user) : Auth::user();
         $title = "Portal || Course Registration";

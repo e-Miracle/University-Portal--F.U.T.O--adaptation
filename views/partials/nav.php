@@ -31,27 +31,27 @@ use core\middlewares\Url; ?>
         {
         ?>
         <li class='nav-item'>
-            <a href="<?=Url::home('/portal/hostel/invoice')?>"><i class="nav-link fa fa-plus-circle"></i> Generate Hostel Invoice</a>
+            <a href="<?=Url::home('/portal/hostel/invoice')?>"><i class="nav-link fa fa-plus-circle"></i>Hostel Invoice</a>
         </li>
 
         <li class='nav-item'>
-            <a href="<?=Url::home('/portal/siwes')?>"><i class="nav-link fa fa-plus-circle"></i> Generate Siwes Form</a>
+            <a href="<?=Url::home('/portal/siwes')?>"><i class="nav-link fa fa-plus-circle"></i>SIWES Form</a>
         </li>
 
         <li class='nav-item'>
-            <a href="<?=Url::home('/portal/school_fee:generate_invoice')?>"><i class="nav-link fa fa-plus-circle"></i> Generate School Fee Invoice</a>
+            <a href="<?=Url::home('/portal/school_fee:generate_invoice')?>"><i class="nav-link fa fa-plus-circle"></i>School Fee Invoice</a>
         </li>
 
         <li class='nav-item'>
-            <a href="<?=Url::home('/portal/course:register')?>"><i class="nav-link fa fa-plus-circle"></i> Register Courses</a>
+            <a href="<?=Url::home('/portal/course:register')?>"><i class="nav-link fa fa-plus-circle"></i>Register Courses</a>
         </li>
 
         <li class='nav-item'>
-            <a href="<?=Url::home('/portal/result:check')?>"><i class="nav-link fa fa-plus-circle"></i> Check Result</a>
+            <a href="<?=Url::home('/portal/result:check')?>"><i class="nav-link fa fa-plus-circle"></i>Check Result</a>
         </li>
 
         <li class='nav-item'>
-            <a href="<?=Url::home('/portal/school_fee:print_receipt')?>"><i class="nav-link fa fa-plus-circle"></i> Print School Fee Receipt</a>
+            <a href="<?=Url::home('/portal/school_fee:print_receipt')?>"><i class="nav-link fa fa-plus-circle"></i>Print School Fee Receipt</a>
         </li>
 
         <li class="nav-item">
