@@ -20,7 +20,7 @@ class ProfileController extends Controller
     {
         $this->setLayout('dashboard');
         Auth::isLoggedIn();
-        Auth::isStudent();
+        //Auth::isStudent();
     }
 
     public function viewProfile()
@@ -95,7 +95,7 @@ class ProfileController extends Controller
                 'genotype'=>$request->genotype,
                 'faculty'=>$request->faculty,
                 'department'=>$request->dept,
-                'level'=>$request->level,
+                'level'=>$request->level??"",
                 'phone1'=>$request->phone,
                 'sponsor_name'=>$request->sname,
                 'sponsor_email'=>$request->semail,

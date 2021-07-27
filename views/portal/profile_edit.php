@@ -12,6 +12,7 @@
                 <div class="col-md-12">
                     <?php
 
+                    use core\middlewares\Auth;
                     use core\middlewares\Url;
 
                     if (isset($user)){
@@ -19,12 +20,18 @@
                     <form action="" method="post" enctype="multipart/form-data">
 
                         <div class="row">
+                        <?php
+                        if (Auth::isStudent(true)):
+                            ?>
                             <div class="col">
                                 <div class="form-group">
                                     <label for="matno">REG NO</label>
                                     <input type="text" class="form-control" name="matno"  placeholder="MAT NO" readonly value="<?=$user->reg_no?>">
                                 </div>
                             </div>
+                            <?php
+                        endif;
+                            ?>
                             <div class="col">
                                 <div class="form-group">
                                     <label for="firstname">Firstname</label>
@@ -197,6 +204,9 @@
                                     </select>
                                 </div>
                             </div>
+                        <?php
+                        if (Auth::isStudent(true)):
+                            ?>
                             <div class="col">
                                 <div class="form-group">
                                     <label for="level">Level</label>
@@ -216,6 +226,9 @@
                                     </select>
                                 </div>
                             </div>
+                            <?php
+                        endif;
+                            ?>
                         </div>
 
                         <br>

@@ -5,7 +5,7 @@ use core\middlewares\Url; ?>
 <nav id="sidebar" class="px-0 bg-dark-green bg-gradient sidebar">
     <ul class="nav nav-pills flex-column">
         <li class="logo-nav-item">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img src="<?= Url::home("/assets/logo.png")?>" width="180" height="45" alt="FUTO-SCIT">
 
             </a>
@@ -87,6 +87,12 @@ use core\middlewares\Url; ?>
             </li>
             <li class='nav-item'>
                 <a href="<?=Url::home('/admin/result/search')?>"><i class="nav-link fa fa-plus-circle"></i> Search Result</a>
+            </li>
+            <li class='nav-item'>
+                <a href="<?=Url::home('/admin/add/faculty')?>"><i class="nav-link fa fa-plus-circle"></i> Faculty</a>
+            </li>
+            <li class='nav-item'>
+                <a href="<?=Url::home('/admin/add/department')?>"><i class="nav-link fa fa-plus-circle"></i> Department</a>
             </li>
         <?php
         }

@@ -29,8 +29,14 @@ use core\middlewares\Url; ?>
                                 <h4>Academic Info</h4>
                                 <ul>
                                     <li><i class="fa fa-home"></i> Department: <?=$department->name?> </li>
+                                    <?php
+                                    if (Auth::isStudent(true)):
+                                    ?>
                                     <li><i class="fa fa-th"></i> Level:  <?=$user->level?>00 </li>
                                     <li><i class="fa fa-th"></i> Mat No:  <?=$user->reg_no?> </li>
+                                    <?php
+                                    endif;
+                                    ?>
                                 </ul>
 
                             </td>

@@ -88,19 +88,19 @@ use core\middlewares\Url; ?>
                 <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-dropdown-navbar-profile">
 
                     <li>
-                        <a class="dropdown-item" href="<?=Url::home("/$type/profile")?>">
+                        <a class="dropdown-item" href="<?=Url::home("/portal/profile")?>">
                             View Profile
                         </a>
 
                     </li>
                     <li>
-                        <a class="dropdown-item" href="<?=Url::home("/$type/profile/edit")?>">
+                        <a class="dropdown-item" href="<?=Url::home("/portal/profile/edit")?>">
                             Edit Profile
                         </a>
 
                     </li>
                     <li>
-                        <a class="dropdown-item" href="<?=Url::home("/$type/password/change")?>">
+                        <a class="dropdown-item" href="<?=Url::home("/portal/password/change")?>">
                             Change Password
                         </a>
 

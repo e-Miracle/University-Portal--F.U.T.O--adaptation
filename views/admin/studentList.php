@@ -4,6 +4,13 @@ use app\helpers\App;
 use core\middlewares\Url;
 ?>
 <div class="col-md-12">
+    <div class="col-md-12">
+        <button class="btn btn-primary">
+            <a href="<?=Url::home("/admin/add/student")?>" style="color: white">Add Student</a>
+        </button>
+
+    </div>
+    <hr class="section_padding_60">
     <div class="col-md-12 col-lg-12">
         <div class="col-md-12">
             <form class="form-inline" method="post" action="">

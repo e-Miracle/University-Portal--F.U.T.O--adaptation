@@ -152,6 +152,23 @@ $app->router->get('/admin/info/student', ['controller'=>'StudentController', 'ac
 $app->router->get('/admin/id_card/student', ['controller'=>'StudentController', 'action'=>'showId', 'namespace'=>'admin']);
 
 $app->router->get('/admin/remove/student', ['controller'=>'StudentController', 'action'=>'deleteStudent', 'namespace'=>'admin']);
+$app->router->get('/admin/add/student', ['controller'=>'StudentController', 'action'=>'addStudent', 'namespace'=>'admin']);
+$app->router->post('/admin/add/student', ['controller'=>'StudentController', 'action'=>'submitAddStudent', 'namespace'=>'admin']);
+
+$app->router->get('/admin/add/lecturer', ['controller'=>'LecturerController', 'action'=>'addLecturer', 'namespace'=>'admin']);
+$app->router->post('/admin/add/lecturer', ['controller'=>'LecturerController', 'action'=>'submitAddLecturer', 'namespace'=>'admin']);
+
+/**
+ * faculty
+ */
+$app->router->get('/admin/add/faculty', ['controller'=>'FacultyController', 'action'=>'showAddFaculty', 'namespace'=>'admin']);
+$app->router->post('/admin/add/faculty', ['controller'=>'FacultyController', 'action'=>'submitAddFaculty', 'namespace'=>'admin']);
+
+/**
+ * department
+ */
+$app->router->get('/admin/add/department', ['controller'=>'DepartmentController', 'action'=>'showAddFaculty', 'namespace'=>'admin']);
+$app->router->post('/admin/add/department', ['controller'=>'DepartmentController', 'action'=>'submitAddFaculty', 'namespace'=>'admin']);
 
 $app->router->get('/admin/register_course/student', ['controller'=>'StudentController', 'action'=>'courseReg', 'namespace'=>'admin']);
 $app->router->post('/admin/register_course/student', ['controller'=>'StudentController', 'action'=>'courseRegAdd', 'namespace'=>'admin']);

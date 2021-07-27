@@ -4,6 +4,12 @@ use app\helpers\App;
 use core\middlewares\Url;
 ?>
 <div class="col-md-12">
+    <div class="col-md-12">
+        <button class="btn btn-primary">
+            <a href="<?=Url::home("/admin/add/lecturer")?>" style="color: white">Add Lecturer</a>
+        </button>
+
+    </div>
     <div class="col-md-12 col-lg-12">
         <div class="card">
             <div class="card-header">
