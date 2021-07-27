@@ -6,7 +6,7 @@ use core\middlewares\Url;
 <div class="right-column sisu">
     <div class="row mx-0">
         <div class="col-md-7 order-md-2 signin-right-column px-5 bg-dark-green">
-            <a class="signin-logo d-sm-block d-md-none" href="#" >
+            <a class="signin-logo d-sm-block d-md-none" href="/" >
                 <img style="text-align: center" src="<?= Url::home("/assets/logo.png")?>" width="200" height="48" alt="FleetXpert">
                 <!--<img style="text-align: center" src="http://localhost:8080/assets/logo.png" width="200" height="48" alt="FleetXpert">-->
             </a>
