@@ -20,7 +20,7 @@ use core\middlewares\Url;
             <a style="color: black" href="<?=Url::home('/admission/check_status')?>">Check admission status</a>
         </div>
         <div class="col-md-5 order-md-1 signin-left-column bg-white px-5">
-            <a class="signin-logo d-sm-none d-md-block" href="#">
+            <a class="signin-logo d-sm-none d-md-block" href="/">
                 <img src="<?=Url::home("/assets/logo.png")?>"  width="200" height="48" alt="FleetXpert">
 
             </a>
