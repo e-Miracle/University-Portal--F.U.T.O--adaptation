@@ -47,7 +47,7 @@ class ResultController extends Controller
                 results.score,
                 results.grade
                 FROM ((results
-                 INNER JOIN courses ON courses.id =  results.user_id)
+                 INNER JOIN courses ON courses.id =  results.course_reg_id)
                  INNER JOIN course_reg ON results.user_id = course_reg.user_id 
                     AND results.course_reg_id = course_reg.course_id 
                     AND results.level_id = course_reg.level_id 
@@ -59,6 +59,7 @@ class ResultController extends Controller
             $request->data()->session,
         ];
         $results = DB::getInstance()->query($sql, $param)->fetch();
+
         return $this->view('result.view', compact('title', 'session', 'level', 'department', 'results', 'sess', 'lev', 'user', 'addedRegNo'));
     }
 }

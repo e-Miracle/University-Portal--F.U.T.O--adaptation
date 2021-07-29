@@ -13,7 +13,7 @@
                             foreach ($level as $l)
                             {
                             ?>
-                            <option value="<?=$l->numeric?>" ><?=$l->name?></option>
+                            <option value="<?=$l->id?>" ><?=$l->name?></option>
                             <?php
                             }
                             ?>
@@ -41,14 +41,14 @@
 
                     <?php
                     if ($addedRegNo)
-                    {
-                    ?>
+                    /*{
+                    */?><!--
                         <div class="form-group">
                             <label for="level">Input Reg No</label>
                             <input type="text" name="reg_no" class="form-control col-md-12" required>
                         </div>
-                    <?php
-                    }
+                    --><?php
+/*                    }*/
                     ?>
                     <input type="submit" name="Load" value="Search" class="btn btn-success">
                 </form>
